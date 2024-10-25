@@ -1,0 +1,110 @@
+.navbar{
+    text-align: center;
+    background-color: #a5a4a4;
+    padding: 15px 5px;
+    border: 1px solid black;
+}
+.navbar a {
+    padding: 10px 300px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: larger;
+    
+    }
+
+.navbar a:hover {
+    color: #ff6347; 
+    border-bottom: 2px solid #ff6347; 
+    }
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #333;
+    text-decoration: underline;
+    text-align: center;
+    margin-right: 20px;
+}
+.gal-border{
+    border-top: solid #ff6347;
+    border-bottom: solid #ff6347;
+}
+
+.gallery {
+    display: block;
+    margin-left: 888px;
+    margin-right: auto;
+    width: 10%;
+}
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    align-items: center;
+    border:5px solid #ff6347;
+    }
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+.cta {
+    padding: 12px 24px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-left: 412px;
+    
+    }
+
+.cta:hover {
+    background-color: #ff4500;
+    transform: translateY(-2px);
+    }
+.feedback {
+    background-color: #a5a4a4;
+    border: 1px solid #ff4500;
+    box-shadow: 0 0 5px #ff4500;
+    color: white;
+}
+#feedback form {
+    display: flex;
+    flex-direction: column;
+    }
+
+#feedback label, #feedback input, #feedback textarea, #feedback button {
+    margin: 8px 0;
+    }
+
+#feedback input, #feedback textarea {
+    padding: 8px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background-color: #a5a4a4;
+    }
+
+#feedback input:hover, #feedback textarea:hover {
+    border-color: #ff6347;
+    box-shadow: 0 0 5px rgba(255, 99, 71, 0.5);
+    }
+
+#feedback button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    }
+
+#feedback button:hover {
+    background-color: #ff4500;
+    transform: translateY(-2px);
+    }
